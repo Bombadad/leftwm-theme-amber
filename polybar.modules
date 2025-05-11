@@ -109,7 +109,7 @@ format-padding = 1
 [module/cpu]
 type = internal/cpu
 interval = 2
-;format-prefix = " "
+format-prefix = " "
 ;format-prefix-foreground = ${color.shade4}
 ;format-foreground = ${color.modulefg}
 ;format-background = ${color.shade6}
@@ -192,7 +192,7 @@ click-right = leftwm-command "PreviousLayout"
 
 [module/launcher]
 type = custom/text
-content = ""
+content = "󰀻"
 content-padding = 2
 content-foreground = ${color.background}
 content-background = ${color.primary}
@@ -313,7 +313,7 @@ format-padding = 1
 
 [module/powermenu]
 type = custom/text
-content = "襤"
+content = "⏻"
 content-padding = 2
 content-foreground = ${color.background}
 content-background = ${color.primary}

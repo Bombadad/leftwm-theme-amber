@@ -3,11 +3,11 @@
 rofi_command="rofi -theme ~/.config/leftwm/themes/current/rofi/powermenu.rasi"
 
 #### Options ###
-shutdown=""
-reboot=""
-lock=""
-suspend=""
-logout=""
+shutdown=""
+reboot=""
+lock=""
+suspend="󰤄"
+logout=""
 
 options="$shutdown\n$reboot\n$lock\n$suspend\n$logout"
 
